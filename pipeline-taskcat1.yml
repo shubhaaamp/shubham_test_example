@@ -170,7 +170,7 @@ Resources:
       TimeoutInMinutes: 10
   PipelineBucket:
     Type: AWS::S3::Bucket
-    ##DeletionPolicy: Delete
+    DeletionPolicy: Delete
   Pipeline:
     Type: AWS::CodePipeline::Pipeline
     Properties:
