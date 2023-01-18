@@ -16,7 +16,7 @@ Parameters:
   GitHubToken:
     NoEcho: true
     Type: String
-    Default: "{{resolve:secretsmanager:github/personal-access-token3:SecretString:Token}}"
+    Default: "{{resolve:secretsmanager:github/eICR_Infrastructure:SecretString:Token}}"
     Description: GitHub Token.
 Metadata:
   AWS::CloudFormation::Interface:
